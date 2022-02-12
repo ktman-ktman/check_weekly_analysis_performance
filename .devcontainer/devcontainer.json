@@ -1,0 +1,21 @@
+{
+    "name": "check_weekly_analysis_performance",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash (login)": {
+                "path": "bash",
+                "args": [
+                    "-l"
+                ]
+            }
+        }
+    },
+    "postCreateCommand": "poetry install",
+    "dotfiles.repository": "https://github.com/frozenbonito/dotfiles.git",
+    "dotfiles.targetPath": "~/dotfiles",
+    "dotfiles.installCommand": "~/dotfiles/install_vscode.sh"
+}
