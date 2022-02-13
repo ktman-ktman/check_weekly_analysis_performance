@@ -8,6 +8,9 @@ RUN apt-get update \
     fish \
     git \
     htop \
+    liblapack-dev \
+    libopenblas-base \
+    libopenblas-dev \
     neovim \
     python3-dev \
     tmux \

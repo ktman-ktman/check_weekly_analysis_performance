@@ -15,7 +15,7 @@
         }
     },
     "postCreateCommand": "poetry install",
-    "dotfiles.repository": "https://github.com/frozenbonito/dotfiles.git",
+    "dotfiles.repository": "https://github.com/ktman-ktman/dotfiles.git",
     "dotfiles.targetPath": "~/dotfiles",
     "dotfiles.installCommand": "~/dotfiles/install_vscode.sh"
 }
